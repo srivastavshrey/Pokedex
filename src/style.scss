@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+.App{
+    padding: 20px;
+    h1{
+        text-align: center;
+        margin: 30px auto;
+    }
+}
+.search{
+    input{
+        height: 40px;
+        margin-bottom: 30px;
+        width: 300px;
+        padding: 10px;
+    }
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+}
+.prev-next{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+    button{
+        display: block;
+        border: none;
+        background: #aaa;
+        color: black;
+        border-radius: 4px;
+        font-size: 16px;
+        padding: 10px 15px;
+        font-weight: 700;
+    }
+}

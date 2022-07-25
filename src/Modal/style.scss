@@ -1,0 +1,44 @@
+.modal{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #00000080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cross{
+
+    position: relative;
+    top: -35px;
+    left: 95%;
+    margin-right: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 24px;
+}
+.modal-body{
+    width: fit-content;
+    border-radius: 24px;
+    background: plum;
+    // height: 300px;
+    padding: 20px;
+    padding-top: 50px;
+    display: flex;
+    img{
+        display: block;
+        width: 300px;
+    }
+    ul{
+        margin-top: 10px;
+        list-style: none;
+        padding-left: 10px;
+        li{
+            font-weight: 700;
+            text-transform: capitalize;
+            margin: 4px 0px;
+        }
+    }
+}
